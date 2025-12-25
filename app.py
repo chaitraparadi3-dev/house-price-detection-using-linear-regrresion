@@ -1,4 +1,4 @@
-
+content = """
 
 import gradio as gr
 
@@ -37,4 +37,7 @@ demo = gr.Interface(
 # share=True creates a public URL automatically
 
 demo.launch(share=True)
+"""
+with open("app_gradio.py","w") as f:
+    f.write(content)
 
